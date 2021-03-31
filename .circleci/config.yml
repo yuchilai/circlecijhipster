@@ -50,3 +50,6 @@ jobs:
             - run:
                 name: Run Front End Tests
                 command: npm run ci:frontend:test
+            - run:
+                name: Build Docker Image
+                command: ./mvnw package -Pprod verify jib:build
