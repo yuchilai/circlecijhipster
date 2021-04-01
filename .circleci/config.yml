@@ -51,5 +51,6 @@ jobs:
                 name: Run Front End Tests
                 command: npm run ci:frontend:test
             - run:
-                name: Build Docker Image
+                name: Build Docker Image and push it directly into your Docker registry
                 command: ./mvnw package -Pprod verify jib:build
+

@@ -41,6 +41,10 @@
     "jwtSecretKey": "NmUxYmI4ZjE0YjhhMWI2ODUxYjNlMDRlYjkyZDEzMTYzYTc4MWIxZjdmMDU3OTMzNjMzNzliZmI4YzM2OWIyYzNmNzg5MTQzZTNlNjc3NmRmMGUzZTVjMTI0ZWRlN2Q3NjE5NGE0MmE5NTVkODI0NDUzYzE4YWI2ZDI2M2E5YzU=",
     "clientPackageManager": "npm",
     "clientThemeVariant": "",
-    "languages": ["en", "fr"]
+    "languages": ["en", "fr"],
+    "appFolder": "circlecijhipster",
+    "appsFolders": ["circlecijhipster"],
+    "directoryPath": "../",
+    "monitoring": "no"
   }
 }
