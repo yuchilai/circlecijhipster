@@ -50,7 +50,7 @@ jobs:
             - run:
                 name: Run Front End Tests
                 command: npm run ci:frontend:test
-            - run:
-                name: Build Docker Image and push it directly into your Docker registry
-                command: ./mvnw package -Pprod verify jib:build
+#            - run:
+#                name: Build Docker Image and push it directly into your Docker registry
+#                command: ./mvnw package -Pprod verify jib:build
 
